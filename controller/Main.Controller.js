@@ -3,6 +3,7 @@ sap.ui.define([
     "sap/ui/Device", // Import Device module
     "sap/ui/core/Fragment"
 ], function (Controller, Device, Fragment) {
+    
     return Controller.extend("com.ibm.simpleapp.controller.Main", {
       device: Device,
       onInit: function () {},
